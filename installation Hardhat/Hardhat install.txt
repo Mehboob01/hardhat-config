@@ -1,0 +1,23 @@
+1.  For package.json - npm init
+
+2.  To install hardhat - npm install --save-dev hardhat
+
+3.  To run hardhat - npx hardhat
+
+4.  To install chai and others - npm install --save-dev @nomiclabs/hardhat-ethers ethers @nomiclabs/hardhat-waffle ethereum-waffle chai
+
+5.  npm install --save-dev @nomicfoundation/hardhat-toolbox
+
+deploy smart contract 
+npx hardhat run scripts/deploy.js --network BSC
+
+verify smart contract 
+npx hardhat verify --network <Add Network> <Add Contract Address>
+
+remove node modules
+rm -rf node_modules
+
+install node modules
+
+6. npm install -g hardhat
+7. hardhat --version 
